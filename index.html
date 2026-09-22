@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vedant Pansare | Frontend Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                Vedant.
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="greeting">Hello, I'm</p>
+
+            <h1>Vedant Pansare</h1>
+
+            <h2>Frontend Developer</h2>
+
+            <p>
+                I build clean, responsive and user-friendly web experiences
+                using modern frontend technologies.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+
+            <p>
+                I am a passionate developer interested in creating modern
+                and responsive web applications. I enjoy learning new
+                technologies and building practical projects that solve
+                real-world problems.
+            </p>
+
+            <p>
+                My focus is on writing clean code, creating simple user
+                interfaces and developing websites that work smoothly
+                across different devices.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+
+        <h2 class="section-title">Skills & Tools</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Semantic and structured web pages.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Responsive layouts and modern styling.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Interactive and dynamic web experiences.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>React</h3>
+                <p>Component-based frontend development.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Git & GitHub</h3>
+                <p>Version control and project deployment.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Responsive Design</h3>
+                <p>Websites optimized for all screen sizes.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <div class="project-content">
+
+                    <h3>Smart Investment Advisor</h3>
+
+                    <p>
+                        An expert system that analyzes investor preferences,
+                        risk levels and financial goals to provide suitable
+                        investment recommendations.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>CustomTkinter</span>
+                        <span>Expert System</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-content">
+
+                    <h3>Online Movie Ticket Booking</h3>
+
+                    <p>
+                        A movie booking web application featuring movie
+                        browsing, seat selection, booking management and
+                        payment functionality.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-content">
+
+                    <h3>Security Assessment Project</h3>
+
+                    <p>
+                        A security assessment project demonstrating common
+                        web application security vulnerabilities and
+                        corresponding security improvements.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Express</span>
+                        <span>Security</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <form id="contactForm" class="contact-form">
+
+            <div class="form-group">
+
+                <label for="name">Name</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                >
+
+                <small id="nameError"></small>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="email">Email</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                >
+
+                <small id="emailError"></small>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="message">Message</label>
+
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Enter your message"
+                ></textarea>
+
+                <small id="messageError"></small>
+
+            </div>
+
+
+            <button type="submit" class="btn">
+                Send Message
+            </button>
+
+            <p id="successMessage"></p>
+
+        </form>
+
+    </section>
+    
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Vedant Pansare. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
